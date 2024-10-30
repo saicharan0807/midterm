@@ -1,0 +1,5 @@
+.vs/*
+doctor-office-backend/.env
+doctor-office-backend/node_modules
+doctor-office-frontend/node_modules
+.env
