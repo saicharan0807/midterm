@@ -9,7 +9,7 @@ The **Doctor Appointment Application** is a simple web application designed for 
 The application follows a **microservices architecture** and consists of three main components:
 
 1. **Frontend**: Developed with **React**, this component provides a user interface for patients to book and view their appointments.
-2. **Backend**: Developed with **Node.js** and **Express**, this REST API handles appointment data management and interacts with the MongoDB database.
+2. **Backend**: Developed with **Node.js** and **Express**, this REST API handles appointment data management and interacts with the DynamoDB database.
 3. **Database**: **MongoDB** is used to store appointment details, and it can be hosted locally or on a managed cloud database provider (for production).
 
 ### Deployment Architecture
@@ -43,3 +43,8 @@ The application is containerized using **Docker** and deployed on an **Amazon EK
    ```bash
    MONGO_URI=<your_mongo_database_uri>
    PORT=8080
+4. **Start the backend server**:
+   ```bash
+   node app.js
+
+The backend server should now be running on `http://localhost:3000`.
