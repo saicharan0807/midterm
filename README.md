@@ -10,7 +10,7 @@ The application follows a **microservices architecture** and consists of three m
 
 1. **Frontend**: Developed with **React**, this component provides a user interface for patients to book and view their appointments.
 2. **Backend**: Developed with **Node.js** and **Express**, this REST API handles appointment data management and interacts with the DynamoDB database.
-3. **Database**: **MongoDB** is used to store appointment details, and it can be hosted locally or on a managed cloud database provider (for production).
+3. **Database**: **DynamoDB** is used to store appointment details, and it can be hosted locally or on a managed cloud database provider (for production).
 
 ### Deployment Architecture
 
