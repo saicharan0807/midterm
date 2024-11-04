@@ -41,8 +41,9 @@ The application is containerized using **Docker** and deployed on an **Amazon EK
    npm install
 3. **Set up environment Variables**: Create a `.env` file in the `backend` directory with the following variables
    ```bash
-   MONGO_URI=<your_mongo_database_uri>
-   PORT=8080
+   AWS_REGION
+   AWS_ACCESS_KEY_ID
+   AWS_SECRET_ACCESS_KEY
 4. **Start the backend server**:
    ```bash
    node app.js
